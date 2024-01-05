@@ -54,6 +54,10 @@ namespace Labb3
             //Här skriver vi ut informationen som finns lagrad om personen
             Console.WriteLine(person.ToString());
 
+            //Vi ser till att man hinner läsa informationen som visas i konsolfönstret innan det stängs
+            Console.WriteLine("Tryck på Enter för att gå vidare.");
+            Console.ReadLine();
+
         }
     }
 }
